@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: freemono, monospace, "Century gothic";
+}
+
+table{
+    border: 2px;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
