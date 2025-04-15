@@ -19,7 +19,7 @@ function telefone(variavel){
     variavel= variavel.replace(/^(\d\d)(\d)/g,"($1) $2")
 
     //A linha abaixo é responsavel de adicionar o hifem entre o quarto e o quinto digito
-    variavel=variavel.replace(/(\d{4})(\d)/,"$1-$2") //coloca a segunda barra
+    variavel=variavel.replace(/(\d{5})(\d)/,"$1-$2") //coloca a segunda barra
     return variavel
 }
 
